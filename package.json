@@ -1,0 +1,14 @@
+{
+  "name": "ui_playwright",
+  "version": "1.0.0",
+  "description": "| №   | Test case                                        |\r | --- | ------------------------------------------------ |\r | 1   | Registration account with randon values          |\r | 2   | Login with correct email and password and Logout |\r | 2.1 | Login with incorrect email and password          |\r | 2.2 | Login with empty email                           |\r | 2.3 | Login with empty password                        |\r | 2.4 | Login with incorrect Email                       |\r | 3   | Registration account with exist Email            |\r | 4   | Deleting account                                 |\r | 5   | Verifying 'Contact us' Form                      |\r | 6   | Verifying All Products and product detail page   |\r | 7   | Searching product                                |\r | 8   | Adding Products in Cart                          |\r | 9   | Verifying Product quantity in Cart               |\r | 10  | Verifying View Category Products                 |\r | 11  | Verifying View & Cart Brand Products             |\r | 12  | Adding review on product                         |\r | 13  | Adding to cart from Recommended items            |\r | 14  | Registration while Checkout                      |\r | 15  | Login before Checkout                            |\r | 16  | Remove Products From Cart                        |",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.47.2",
+    "@types/node": "^22.7.4"
+  }
+}
